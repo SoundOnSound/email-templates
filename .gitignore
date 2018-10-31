@@ -1,0 +1,15 @@
+.DS_Store
+node_modules
+npm-debug.log
+bower_components
+dist
+.sass-cache
+.awspublish*
+config.json
+etc
+example.config.json
+gulpfile.babel.js
+LICENSE
+package.json
+README.md
+src/assets/img/*

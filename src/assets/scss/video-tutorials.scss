@@ -1,0 +1,43 @@
+h1, h2, h3, h4, h5, h6, p, a, li, td, th {
+  word-break: keep-all;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+.logo {
+  img {
+    padding: 2rem 0 1rem 0;
+  }
+}
+h1 {
+  color: #ff6633;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.intro {
+  h2 {
+    font-size: 1.4rem;
+  }
+  span.bold {
+    font-weight: 600;
+  }
+}
+.footer-info {
+  background-color: #222222;
+  p {
+    color: white;
+    font-size: .9rem;
+    font-weight: lighter;
+    padding: 1rem 0 0 0;
+    line-height: 1.5rem;
+  }
+}
+.footer-link {
+  background-color: #ff6633;
+  padding: 2rem;
+  h3 a {
+    color: white;
+    font-weight: lighter;
+  }
+}

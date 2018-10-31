@@ -1,0 +1,27 @@
+table.header, table.footer {
+  background: $light-gray!important;
+}
+table.footer {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+table.header p, table.footer p, table.header a, table.footer a {
+  color: $dark-gray;
+  font-size: .8rem;
+  font-family: 'Helvetica', sans-serif;
+}
+table.header a, table.footer a {
+  color: #0000EE;
+}
+.branding {
+  img {
+    padding: 1rem 0 .6rem 0;
+  }
+  p {
+    font-size: .7rem;
+  }
+}
+img.full-width {
+  width: 100%;
+  height: auto;
+}
