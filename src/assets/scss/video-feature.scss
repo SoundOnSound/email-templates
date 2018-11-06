@@ -1,0 +1,57 @@
+h1, h2, h3, h4, h5, h6, p, a, li, td, th {
+  word-break: keep-all;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+h1, h2, h3, h4, h5, h6, p, a, li {
+  color: white;
+}
+h1, h2, p {
+  font-weight: 300;
+}
+h1 {
+  font-size: 1.625rem;
+  padding: 2rem 0 0 0;
+}
+h2 {
+  font-size: 1.250rem;
+}
+p {
+  font-size: .9rem;
+}
+.sub {
+  font-weight: bold;
+  text-decoration: underline;
+}
+table.container {
+  background-color: black;
+}
+th.first {
+  padding-bottom: 0;
+}
+.prev {
+  img {
+    margin-bottom: 1rem;
+  }
+  p {
+    text-align: center;
+    font-size: .8rem;
+    font-weight: normal;
+  }
+}
+.padding {
+  padding: $text-padding;
+}
+.padding-left {
+  padding-left: $text-padding;
+}
+.social {
+  th {
+    text-align: center;
+  }
+  img {
+    display: inline;
+  }
+}
